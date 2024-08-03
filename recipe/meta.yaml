@@ -12,7 +12,7 @@ source:
   sha256: 43da5afe36afaa31d60c654207965c6123d1a3734c93313dac5fc43c87fff7b2
 
 build:
-  number: 0
+  number: 1
   noarch: generic
   merge_build_host: true
   script: R CMD INSTALL --build .
